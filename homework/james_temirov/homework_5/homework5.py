@@ -12,15 +12,15 @@ c = 'результат операции: 514'
 v = 'результат работы программы: 9'
 
 plus1 = x.index(':')
-int1 = int(x[plus1+2:]) + 10
+int1 = int(x[plus1 + 2:]) + 10
 print(f'Результат операции: {int1}')
 
 plus2 = c.index(':')
-int2 = int(c[plus2+2:]) + 10
+int2 = int(c[plus2 + 2:]) + 10
 print(f'Результат операции: {int2}')
 
 plus3 = v.index(':')
-int3 = int(v[plus3+2:]) + 10
+int3 = int(v[plus3 + 2:]) + 10
 print(f'Результат операции: {int3}')
 
 
