@@ -1,5 +1,4 @@
-text = ('Etiam tincidunt neque erat, quis molestie enim imperdiet vel.'  
-'Integer urna nisl, facilisis vitae semper at, dignissim vitae libero.')
+text = ('Etiam tincidunt neque erat, quis molestie enim imperdiet vel. Integer urna nisl, facilisis vitae semper at, dignissim vitae libero.')
 
 new_text = text.split()
 text_ing = []
@@ -10,7 +9,7 @@ for word in new_text:
         punctuation = word[-1]
     else:
         base = word
-        punctuation = ''
+        punctuation = '' 
         
     new_line = base + 'ing' + punctuation
     text_ing.append(new_line)
