@@ -16,3 +16,4 @@ for word in new_text:
 
 word_ing = ' '.join(text_ing)
 print(word_ing)
+
