@@ -15,6 +15,7 @@ if bonus:
 print(orig_check, bonus)
 print(f'${check}')
 
+
 # 2 ДЗ Надеюсь все сделал правильно
 def fibonacci_generator():
     a, b = 0, 1
