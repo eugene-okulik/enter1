@@ -23,8 +23,6 @@ def fibonacci_generator():
         a, b = b, a + b
 
 
-
-
 gen = fibonacci_generator()
 
 targets = [5, 200, 1000, 100000]
